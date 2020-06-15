@@ -10,7 +10,7 @@ github_repos = f'https://api.github.com/users/{username}/repos'
 response = requests.get(url=github_repos)
 repos = response.json()
 
-gitlab_token = 'CGDzkEbLLPyTzpzf5xNY'
+gitlab_token = 'XXXXXXXXXXXXXX'
 
 gitlab_create_repo = f'https://gitlab.com/api/v4/projects?private_token={gitlab_token}'
 
