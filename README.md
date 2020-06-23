@@ -17,3 +17,9 @@ script to migrate away from github
 4. Install the `requests` library using `pip install requests`
 5. Run the script from the command line `./migrate.py`
 6. Manually delete all your github repos.
+
+## If you're looking for one of my old repos
+
+You can find my [personal source code repos at gitlab](https://gitlab.com/ludflu)
+I've only made what I consider the most interesting stuff public. If there's something you're missing,
+[let me know](https://twitter.com/ludflu) and I'll pull it out of the archives.
