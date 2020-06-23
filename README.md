@@ -12,7 +12,7 @@ script to migrate away from github
 ## To use this script
 
 1. Sign up for [Gitlab](https://gitlab.com/) 
-2. Go get a [Gitlab personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) and [configure the script](https://docs.gitlab.com/ee/ssh/#adding-an-ssh-key-to-your-gitlab-account) with it.
+2. Go get a [Gitlab personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) and [configure the script](https://github.com/ludflu/goodbye-github/blob/main/migrate.py#L13) with it.
 3. Make sure your ssh pubkey is [configured for access to both Github](https://devconnected.com/how-to-setup-ssh-keys-on-github/) and for [access to Gitlab](https://docs.gitlab.com/ee/ssh/#adding-an-ssh-key-to-your-gitlab-account).
 4. Install the `requests` library using `pip install requests`
 5. Run the script from the command line `./migrate.py`
